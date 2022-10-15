@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>formularios</title>
+<link href="style_page_2.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+  <h1>FORMULARIOS EN HTML</h1>
+</header>
+    <nav>
+	<ul id="Menu">
+	<li><a href="../index.html">Perfil&nbsp;</a></li>
+   <li><a href="formatos.html">formatos de texto</a></li>
+    <li><a href="listas.html">&nbsp;Listas HTML</a></li>
+    <li><a href="enlaces.html">&nbsp;enlaces html</a></li>
+    <li><a href="tablas.html">&nbsp;Tablas HTML</a></li>
+    <li><a href="imagenes.html">&nbsp;imagenes html</a></li>
+    <li><a href="audio.html">&nbsp;Audio HTML</a></li>
+    <li><a href="video.html">Video HTML</a></li>
+	</ul>	
+	</nav>
+<main>
+  <section>
+    <h2>Formlario</h2>
+    <p>Lorem ipsum dolor sit amet. 33 veniam quam non modi voluptatem et esse incidunt aut velit odio est nihil doloribus. Aut harum quos aut amet recusandae et iste possimus et nesciunt in voluptatem quisquam quo eius consequatur in atque natus.</p>
+    <form id="form1" name="form1" method="post">
+      <label for="NOMBRE">Nombre:</label>
+      <input type="text" name="NOMBRE" id="NOMBRE">
+		<br> <br>
+		
+      <label for="textfield">Apellido:</label>
+      <input type="text" name="apellido" id="apellido">
+		<br> <br>
+		
+      <input type="submit" name="boton1" id="boton1" value="Enviar">
+      
+    </form>
+  </section>
+  <section>
+    <h2>Formulario usando select, checkbox y radiobutton</h2>
+    <p>Lorem ipsum dolor sit amet. 33 veniam quam non modi voluptatem et esse incidunt aut velit odio est nihil doloribus. Aut harum quos aut amet recusandae et iste possimus et nesciunt in voluptatem quisquam quo eius consequatur in atque natus.</p>
+    <form id="form2" name="form2" method="post">
+      <label for="pais">¿De que país nos vistas?:</label>
+      <select name="pais" id="pais">
+        <option value="MX">México</option>
+        <option value="USA">Estados Unidos</option>
+        <option value="ES">España</option>
+        <option value="AR">Argentina</option>
+        <option value="CO">Colombia</option>
+        <option value="IT">Italia</option>
+      </select>
+		<br>
+		<br>
+      <label>Genero:&nbsp;</label>
+      <p>
+        <label>
+          <input type="radio" name="Genero" value="hombre" id="Genero_0">
+          Hombre</label>
+        <br>
+        <label>
+          <input type="radio" name="Genero" value="mujer" id="Genero_1">
+          Mujer</label>
+        <br>
+        <label>
+          <input type="radio" name="Genero" value="otro" id="Genero_2">
+          Otro</label>
+        <br>
+      </p>
+		<br>
+      <label>¿Cual sera tu residencia durante tu estancia?</label>
+      <table width="200">
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Residencia_temporal" value="Hotel" id="Residencia_temporal_0">
+            Hotel</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Residencia_temporal" value="Particular" id="Residencia_temporal_1">
+            Domicilio de amigos/familia</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Residencia_temporal" value="airbnb" id="Residencia_temporal_2">
+            Airbnb</label></td>
+        </tr>
+      </table>
+<br>
+      <br>
+      <input type="submit" name="boton2" id="boton2" value="Enviar">
+    </form>
+  </section>
+  <section>
+    <h2>Formulario de contacto</h2>
+    <p>Lorem ipsum dolor sit amet. 33 veniam quam non modi voluptatem et esse incidunt aut velit odio est nihil doloribus. Aut harum quos aut amet recusandae et iste possimus et nesciunt in voluptatem quisquam quo eius consequatur in atque natus.</p>
+      <form action="procesamiento.html" method="get" name="form3" id="form3" autocomplete="off">
+      <label for="nombre">Nombre:</label>
+      <input name="nombre" type="text" required="required" id="nombre" form="form3">
+      <label for="email">Email:</label>
+      <input name="email" type="email" id="email">
+      <label for="mensaje">Mensaje:</label>
+      <textarea name="mensaje" rows="6" maxlength="150" id="mensaje" placeholder="Escribe tu mensaje...."></textarea>
+      <input type="submit" name="boton3" id="boton3" value="Enviar">
+	  </form>
+  </section>
+<section>
+    <h2>&nbsp;Formulario propio</h2>
+    <p>Lorem ipsum dolor sit amet. 33 veniam quam non modi voluptatem et esse incidunt aut velit odio est nihil doloribus. Aut harum quos aut amet recusandae et iste possimus et nesciunt in voluptatem quisquam quo eius consequatur in atque natus.</p>
+    <form id="form4" name="form4" method="post">
+   
+      <label>REGISTRO DE FUNCIÓN<br>
+        <br>
+      </label>
+      <label for="textfield">Nombre:</label>
+      <input type="text" name="textfield" id="textfield">
+      <br>
+<br>
+      <label for="telefono">Telefono:</label>
+      <input type="tel" name="telefono" id="telefono">
+      <br>
+<br>
+      <label for="numero">No. de boletos:</label>
+      <input type="number" name="numero" id="numero">
+      <br>
+<br>
+      <label for="fecha">Fecha:</label>
+      <input type="date" name="fecha" id="fecha">
+      <br>
+<br>
+      <label for="horario">Horario:</label>
+      <input type="time" name="horario" id="horario">
+      <label for="ARCHIVO">Ficha de pago:</label>
+      <input name="ARCHIVO" type="file" autofocus="autofocus" required="required" id="ARCHIVO" form="form4">
+<br>
+	  <br>
+      <input type="submit" name="submit" id="submit" value="Enviar">
+    </form>
+</section>
+</main>
+<footer>
+  <h6>Elaborado por: Yareli Zarate Luna&nbsp;</h6>
+  <p>:&nbsp;</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,380 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>tablas html</title>
+<link href="../style_page_2.css" rel="stylesheet" type="text/css">
+<link href="style_page_2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Tablas en HTML</h1>
+</header>
+<nav>
+  <ul id="Menu">
+	<li><a href="../index.html">Perfil&nbsp;</a></li>
+    <li><a href="formatos.html">formatos de texto</a></li>
+    <li><a href="listas.html">&nbsp;Listas HTML</a></li>
+    <li><a href="enlaces.html">&nbsp;enlaces html</a></li>
+    <li><a href="imagenes.html">&nbsp;imagenes html</a></li>
+    <li><a href="audio.html">&nbsp;Audio HTML</a></li>
+    <li><a href="video.html">Video HTML</a></li>
+    <li><a href="formulario.html">formulario&nbsp;</a></li>
+  </ul>
+	</nav>
+<main>
+  <section>
+    <h2>Tablas desde codigo</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate tincidunt imperdiet. Nunc volutpat pulvinar ligula id finibus. Donec pulvinar lectus eleifend sem consequat, eget laoreet mi congue. Sed quis lobortis lectus. Curabitur in libero nisi. Duis ut massa eget ante dapibus dictum sit amet ut nunc. Cras libero felis.</p>
+	  <table id="tabla_1">
+		  <thead> 
+		  </thead>
+		  <tr>
+			  <th> Nombre</th>
+			  <th> Taller </th>
+			  <th> Email </th>
+			  <th> Cuota de taller</th>
+		  </tr>
+		  <tbody>
+			  <tr>
+				  <td> Rosa lopez</td>
+				   <td> Pintura </td>
+				   <td> rosa@hotmail.com </td>
+				   <td> 800 </td>
+			  </tr>
+			 <tr>
+				  <td> Rodrigo Hernandez</td>
+				   <td> Fotografia </td>
+				   <td> rodri14@outlook.com </td>
+				   <td> 1200 </td>
+			  </tr>
+			  <tr>
+				  <td> MigueL Diaz</td>
+				   <td> Pintura </td>
+				   <td> mike@gamil.com </td>
+				   <td> 800 </td>
+			  </tr>
+			  <tr>
+				  <td> Veronica Sanchez</td>
+				   <td> Fotografia </td>
+				   <td> verito@gamil.com </td>
+				   <td> 1200 </td>
+			  </tr>
+			  <tr>
+				  <td> Rosa lopez</td>
+				   <td> Pintura </td>
+				   <td> rosa@hotmail.com </td>
+				   <td> 800 </td>
+			  </tr>
+			  <tr>
+				  <td> Fernando Gomez</td>
+				   <td> Forja</td>
+				   <td> fer_34@outlook.com </td>
+				   <td> 300 </td>
+			  </tr>
+		  </tbody>
+		  <tfoot>
+			  <tr>
+				  <td></td>
+				  <td></td>
+				  <td> Total de inscripción</td>
+				   <td> 4300 </td>
+			  </tr>
+		  </tfoot>
+	  </table>
+  </section>
+	<section>
+    <h2>Tabla con estilo CSS y uso de rowspan&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate tincidunt imperdiet. Nunc volutpat pulvinar ligula id finibus. Donec pulvinar lectus eleifend sem consequat, eget laoreet mi congue. Sed quis lobortis lectus. Curabitur in libero nisi. Duis ut massa eget ante dapibus dictum sit amet ut nunc. Cras libero felis.</p>
+		  <table border="1" id="tabla_2">
+		  <thead> 
+		  </thead>
+		  <tr>
+			  <th> Nombre</th>
+			  <th> Taller </th>
+			  <th> Email </th>
+			  <th> Cuota de taller</th>
+		  </tr>
+		  <tbody>
+			  <tr>
+				  <td> Rosa lopez</td>
+				   <td> Pintura </td>
+				   <td> rosa@hotmail.com </td>
+				   <td> 800 </td>
+			  </tr>
+			 <tr>
+				  <td> Rodrigo Hernandez</td>
+				   <td> Fotografia </td>
+				   <td> rodri14@outlook.com </td>
+				   <td> 1200 </td>
+			  </tr>
+			  <tr>
+				  <td> MigueL Diaz</td>
+				   <td> Pintura </td>
+				   <td> mike@gamil.com </td>
+				   <td> 800 </td>
+			  </tr>
+			  <tr>
+				  <td> Veronica Sanchez</td>
+				   <td> Fotografia </td>
+				   <td> verito@gamil.com </td>
+				   <td> 1200 </td>
+			  </tr>
+			  <tr>
+				  <td> Rosa lopez</td>
+				   <td> Pintura </td>
+				   <td> rosa@hotmail.com </td>
+				   <td> 800 </td>
+			  </tr>
+			  <tr>
+				  <td> Fernando Gomez</td>
+				   <td> Forja</td>
+				   <td> fer_34@outlook.com </td>
+				   <td> 300 </td>
+			  </tr>
+		  </tbody>
+		  <tfoot>
+			  <tr>
+				  <!--<td></td>
+				  <td></td>-->
+				  <td colspan="3"> &nbsp; Total de inscripción</td>
+				   <td> 4300 </td>
+			  </tr>
+		  </tfoot>
+	  </table>
+  </section><section>
+    <h2>Tabla con cebras en horizontal o en linea</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate tincidunt imperdiet. Nunc volutpat pulvinar ligula id finibus. Donec pulvinar lectus eleifend sem consequat, eget laoreet mi congue. Sed quis lobortis lectus. Curabitur in libero nisi. Duis ut massa eget ante dapibus dictum sit amet ut nunc. Cras libero felis.</p>
+    <table width="100%" border="1" cellspacing="5" id="tabla_3">
+      <thead>
+		<tr>
+          <th scope="col">&nbsp;Nombre</th>
+          <th scope="col">Correo electronico&nbsp;</th>
+          <th scope="col">Telefono&nbsp;</th>
+          <th scope="col">&nbsp;Edad</th>
+          <th scope="col">Deporte&nbsp;</th>
+        </tr>  
+		</thead>
+		<tbody>
+        <tr>
+          <td>&nbsp;Luis Lezama</td>
+          <td>&nbsp;luisito@gmail.com</td>
+          <td>&nbsp;2224567890</td>
+          <td>&nbsp; 15&nbsp;</td>
+          <td>&nbsp;Futbol</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Angela Solis</td>
+          <td>&nbsp;alelita@outlook.com</td>
+          <td>&nbsp;2224567897</td>
+          <td>&nbsp;13</td>
+          <td>&nbsp;Voleibol</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Mariana Fernandez</td>
+          <td>&nbsp;fer12@gmail.com</td>
+          <td>&nbsp;2223455678</td>
+          <td>&nbsp;12</td>
+          <td>&nbsp;Basquet</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Gerardo Luna</td>
+          <td>&nbsp;gerard@gmail.com</td>
+          <td>&nbsp;2223445666</td>
+          <td>&nbsp;16</td>
+          <td>&nbsp;Futbol</td>
+        </tr>
+      </tbody>
+    </table>
+    
+  </section>
+  <section>
+    <h2>Tabla con cebras en vertical o columna.</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate tincidunt imperdiet. Nunc volutpat pulvinar ligula id finibus. Donec pulvinar lectus eleifend sem consequat, eget laoreet mi congue. Sed quis lobortis lectus. Curabitur in libero nisi. Duis ut massa eget ante dapibus dictum sit amet ut nunc. Cras libero felis.</p>
+	  <table width="100%" border="1" cellspacing="5" id="tabla_4">
+      <thead>
+        <tr>
+          <th scope="col">&nbsp;Nombre</th>
+          <th scope="col">Correo electronico&nbsp;</th>
+          <th scope="col">Telefono&nbsp;</th>
+          <th scope="col">&nbsp;Edad</th>
+          <th scope="col">Deporte&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&nbsp;Luis Lezama</td>
+          <td>&nbsp;luisito@gmail.com</td>
+          <td>&nbsp;2224567890</td>
+          <td>&nbsp; 15&nbsp;</td>
+          <td>&nbsp;Futbol</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Angela Solis</td>
+          <td>&nbsp;alelita@outlook.com</td>
+          <td>&nbsp;2224567897</td>
+          <td>&nbsp;13</td>
+          <td>&nbsp;Voleibol</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Mariana Fernandez</td>
+          <td>&nbsp;fer12@gmail.com</td>
+          <td>&nbsp;2223455678</td>
+          <td>&nbsp;12</td>
+          <td>&nbsp;Basquet</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Gerardo Luna</td>
+          <td>&nbsp;gerard@gmail.com</td>
+          <td>&nbsp;2223445666</td>
+          <td>&nbsp;16</td>
+          <td>&nbsp;Futbol</td>
+        </tr>
+      </tbody>
+    </table>
+</section><section>
+    <h2>Tabla flotante (HOVER)&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate tincidunt imperdiet. Nunc volutpat pulvinar ligula id finibus. Donec pulvinar lectus eleifend sem consequat, eget laoreet mi congue. Sed quis lobortis lectus. Curabitur in libero nisi. Duis ut massa eget ante dapibus dictum sit amet ut nunc. Cras libero felis.</p>
+    <table width="100%" border="1" cellspacing="5" id="tabla_5">
+      <thead>
+        <tr>
+          <th scope="col">&nbsp;Nombre</th>
+          <th scope="col">Correo electronico&nbsp;</th>
+          <th scope="col">Telefono&nbsp;</th>
+          <th scope="col">&nbsp;Edad</th>
+          <th scope="col">Deporte&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&nbsp;Luis Lezama</td>
+          <td>&nbsp;luisito@gmail.com</td>
+          <td>&nbsp;2224567890</td>
+          <td>&nbsp; 15&nbsp;</td>
+          <td>&nbsp;Futbol</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Angela Solis</td>
+          <td>&nbsp;alelita@outlook.com</td>
+          <td>&nbsp;2224567897</td>
+          <td>&nbsp;13</td>
+          <td>&nbsp;Voleibol</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Mariana Fernandez</td>
+          <td>&nbsp;fer12@gmail.com</td>
+          <td>&nbsp;2223455678</td>
+          <td>&nbsp;12</td>
+          <td>&nbsp;Basquet</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Gerardo Luna</td>
+          <td>&nbsp;gerard@gmail.com</td>
+          <td>&nbsp;2223445666</td>
+          <td>&nbsp;16</td>
+          <td>&nbsp;Futbol</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+<section>
+  <h2>Tabla receptiva</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate tincidunt imperdiet. Nunc volutpat pulvinar ligula id finibus. Donec pulvinar lectus eleifend sem consequat, eget laoreet mi congue. Sed quis lobortis lectus. Curabitur in libero nisi. Duis ut massa eget ante dapibus dictum sit amet ut nunc. Cras libero felis.</p>
+  <div id="tabla_receptiva">
+    <table border="1" cellspacing="5" id="tabla_6">
+      <tbody>
+        <tr>
+          <th scope="col">&nbsp;Nombre</th>
+          <th scope="col">Puntos&nbsp;</th>
+          <th scope="col">Puntos&nbsp;</th>
+          <th scope="col">&nbsp;Punt</th>
+          <th scope="col">Punto&nbsp;&nbsp;</th>
+          <th scope="col">Puntos&nbsp;</th>
+          <th scope="col">Puntos&nbsp;</th>
+          <th scope="col">Puntos&nbsp;</th>
+          <th scope="col">Puntos&nbsp;</th>
+          <th scope="col">&nbsp;Puntos</th>
+          <th scope="col">&nbsp;Puntos</th>
+          <th scope="col">&nbsp;Puntos</th>
+          <th scope="col">Puntos&nbsp;</th>
+          <th scope="col">&nbsp;Puntos</th>
+          <th scope="col">&nbsp;Puntos</th>
+        </tr>
+        <tr>
+          <td>&nbsp;Julia</td>
+<td>&nbsp;98</td>
+          <td>&nbsp;45</td>
+          <td>&nbsp;88</td>
+          <td>&nbsp;78</td>
+          <td>&nbsp;23</td>
+          <td>&nbsp;300</td>
+          <td>&nbsp;68</td>
+          <td>&nbsp;49</td>
+          <td>&nbsp;100</td>
+          <td>&nbsp;40</td>
+          <td>&nbsp;89</td>
+          <td>&nbsp;35</td>
+          <td>&nbsp;99</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Mario</td>
+          <td>&nbsp;96</td>
+          <td>&nbsp;90</td>
+          <td>&nbsp;34</td>
+          <td>&nbsp;66</td>
+          <td>&nbsp;87</td>
+          <td>&nbsp;76</td>
+          <td>&nbsp;54</td>
+          <td>&nbsp;64</td>
+          <td>&nbsp;69</td>
+          <td>&nbsp;100</td>
+          <td>&nbsp;200</td>
+          <td>&nbsp;67</td>
+          <td>&nbsp;90</td>
+          <td>&nbsp;70</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Fernanda</td>
+          <td>&nbsp;80</td>
+          <td>&nbsp;93</td>
+          <td>&nbsp;84</td>
+          <td>&nbsp;74</td>
+          <td>&nbsp;98</td>
+          <td>&nbsp;100</td>
+          <td>&nbsp;95</td>
+          <td>&nbsp;97</td>
+          <td>&nbsp;49</td>
+          <td>&nbsp;68</td>
+          <td>&nbsp;98</td>
+          <td>&nbsp;56</td>
+          <td>&nbsp;67</td>
+          <td>&nbsp;77</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Hugo</td>
+          <td>&nbsp;75</td>
+          <td>&nbsp;67</td>
+          <td>&nbsp;93</td>
+          <td>&nbsp;32</td>
+          <td>&nbsp;45</td>
+          <td>&nbsp;56</td>
+          <td>&nbsp;79</td>
+          <td>&nbsp;68</td>
+          <td>&nbsp;45</td>
+          <td>&nbsp;99</td>
+          <td>&nbsp;100</td>
+          <td>&nbsp;89</td>
+          <td>&nbsp;76</td>
+          <td>&nbsp;100</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+</section>
+</main>
+<footer>
+  <h6>Elaborado po Yareli Zarate Luna</h6>
+</footer>
+</body>
+</html>
